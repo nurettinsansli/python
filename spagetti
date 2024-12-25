@@ -1,0 +1,17 @@
+for i in [1,2,3]:         #giant loop
+    def printMa():        #function inside loop
+        print('Ma')  
+    x = True              #sprinkled variables
+    if x == True:
+        printMa()         #repetition
+    y = False             #sprinkled variables
+    if y == True:
+        printMa()         #repetition
+    else:
+        print("Ma")       #repetion
+    y = True              #sprinkled variables
+    if x and y == True:
+        if i==3:          #nested if's
+            print('Mia let me GO !')
+        else:
+            print('Mia')                
