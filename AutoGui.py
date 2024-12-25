@@ -11,6 +11,8 @@ while count <= maxValue:
     count += 1
 
 """
+AutoGui is includes mouse control,keyboard control,message box and screenshot functions.
+Read the docs https://pyautogui.readthedocs.io/en/latest/quickstart.html#
 installition
 python
 node
