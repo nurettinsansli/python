@@ -79,3 +79,9 @@ if __name__ == '__main__':
         mp3_path = Path("voice.mp3")
     wav_path = mp3_to_wav(mp3_path)
     transcribe(wav_path, start_at=to_seconds(0, 0))
+
+"""
+pip install SpeechRecognition@3.13.0
+pip install pydub@0.25.1
+pip install moviepy@2.1.1
+"""
